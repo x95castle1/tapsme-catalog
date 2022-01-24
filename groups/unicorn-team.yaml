@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: unicorn-team
+  description: Unicorn Team
+spec:
+  type: team
+  profile:
+    displayName: Unicorn Team
+    email: team@unicorn.com
+    picture: https://image.shutterstock.com/image-illustration/colorful-unicorn-rainbow-icon-flat-600w-1472518322.jpg
+  parent: default-org
+  children: []
