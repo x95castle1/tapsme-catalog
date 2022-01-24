@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: tap-demo
+  description: TAP Demo by Jeremy and Mae
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: unicorn-team
+  domain: tap-gui-domain
